@@ -16,6 +16,6 @@ export const Typography = (props)=>{
 
 Typography.propTypes = {
     color: PropTypes.string,
-    fontSize: PropTypes.number.isRequired,
+    fontSize: PropTypes.number,
     children: PropTypes.oneOfType([PropTypes.element, PropTypes.string]).isRequired
 }
